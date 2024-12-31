@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glassmorphism {
+    backdrop-filter: blur(9px) saturate(106%);
+    -webkit-backdrop-filter: blur(9px) saturate(106%);
+    background-color: rgba(17, 25, 40, 0.32);
+    
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+
+  .glassmorphism2{
+    backdrop-filter: blur(0px) saturate(106%);
+    -webkit-backdrop-filter: blur(0px) saturate(106%);
+    background-color: rgba(17, 25, 40, 0.16);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+
+  .glassmorphism3{
+    backdrop-filter: blur(0px) saturate(106%);
+    -webkit-backdrop-filter: blur(0px) saturate(106%);
+    background-color: rgba(17, 25, 40, 0.45);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+ }
+
+
+ .glassmorphism4{
+  backdrop-filter: blur(1px) saturate(147%);
+  -webkit-backdrop-filter: blur(1px) saturate(147%);
+  background-color: rgba(17, 25, 40, 0.4);
+  border-radius: 12px;
+  
+  border: 1.5px solid white;
+ }
+ .glassmorphism5 {
+  backdrop-filter: blur(9px) saturate(106%);
+  -webkit-backdrop-filter: blur(9px) saturate(106%);
+  background-color: rgba(17, 25, 40, 0.32);
+  border-radius: 12px;
+  border: 1.Tpx solid white;
+}
